@@ -37,5 +37,8 @@ let Student = [
         Mark:72
     }  
 ];
-const updatedmark =Student.Mark.map(x=>x+20);
-console.log(updatedmark);
+console.log("\n Manipulations in student details (Add 20 marks to all) : \n");
+const newstudents=Student.map((e)=>{
+    e.Mark+=20;
+    console.log(`StudentName:${e.StudentName}, City:${e.City}, StudentId:${e.StudentId}, Adrress:${e.Address}, Marks:${e.Mark}`);
+    return e});
