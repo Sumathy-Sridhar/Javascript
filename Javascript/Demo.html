@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <script>
+            function handleOnClick(){
+                console.log(new Date());
+                var mydate=new Date();
+                document.title="Welcome to JS!!" + mydate;
+                document.getElementById("super").innerHTML="Welcome tp JS!"+ mydate;
+            }
+            </script>
+    </body>
+    <h2> First Html content </h2>
+    <button onclick="handleOnClick()">Display</button>
+    <div id="super"> Initial Data</div>
+</html>

@@ -1,0 +1,13 @@
+let data=["Sumathy","Mathew","Aishu","Cony","Brown","John"];
+console.log("Printing Array: "+data);
+data[3]="Gowri";
+console.log("After Assigning 3rd Index: "+data);
+data.push("Sridhar");
+console.log("After Adding new element: "+data);
+console.log("Length of Array: "+data.length);
+let ind=data.indexOf("Mathew");
+console.log("Index of Mathew is : "+ind);
+data.pop();
+console.log("After Popping element from array: "+data);
+data.splice(1,3);
+console.log("After slicing: "+data);
